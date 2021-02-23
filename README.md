@@ -5,3 +5,4 @@ Various Components include
 2) To integrate the Embedded Device to Cloud
 3) Simulation Of Electrical Subsystem
 4) Documentation and Report making
+5) Using Selenium to Post Real Time data and showcase to the user
