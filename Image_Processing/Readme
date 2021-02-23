@@ -1,0 +1,4 @@
+For the Image processing Application
+The major tasks include
+1) Usage of PySerial to interface and write code on Arduino
+2) Perfrom Computer Vision Techniques to retreive information in form of text and post it on cloud
