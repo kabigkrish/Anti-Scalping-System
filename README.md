@@ -1,8 +1,8 @@
 # Anti-Scalping-System
-This is a TARP project
+This is a University project for Technical Answers to Real World Problems course.
+
 Various Components include 
-1) Image Processing to read the Number (Invoice)
+1) Image Processing to read the Invoice number in delivery box.
 2) To integrate the Embedded Device to Cloud
-3) Simulation Of Electrical Subsystem
-4) Documentation and Report making
-5) Using Selenium to post and showcase real-time data
+3) Simulation Of Electrical Subsystem 
+5) Using Selenium to get invoice id and updating in server.
