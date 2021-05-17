@@ -34,9 +34,25 @@ cv2_imshow(img1)
 text = pytesseract.image_to_string(img1)
 print(text)
 
+
 filename = 'TARP3.jfif'
 img1 = np.array(Image.open(filename))
 cv2_imshow(img1)
 text = pytesseract.image_to_string(img1)
 print(text)
 
+
+import cv2 
+import pytesseract
+
+img = cv2.imread('invoice1.PNG')
+cv2_imshow(img)
+# Adding custom options
+custom_config = r'--oem 3 --psm 6'
+extract=pytesseract.image_to_string(img, config=custom_config)
+
+x = re.split("\s", extract)
+for i in range(len(x)):
+  if x[i]=="No:":
+    pj=x[i+1]
+print(f'Invoice {pj}')
